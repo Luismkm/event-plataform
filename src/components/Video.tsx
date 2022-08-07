@@ -3,6 +3,7 @@ import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-reac
 import { useGetLessonBySlugQuery } from "../graphql/generated";
 
 import '@vime/core/themes/default.css'
+import { Footer } from "./Footer";
 
 interface VideoProps {
   lessonSlug: string;
@@ -67,7 +68,7 @@ export function Video(props: VideoProps) {
             </a>
           </div>
         </div>
-        <div className="gap-8 mt-20 grid grid-cols-2">
+        <div className="gap-8 my-20 grid grid-cols-2">
           <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
             <div className="bg-green-700 h-full p-6 flex items-center">
               <FileArrowDown size={40} />
@@ -97,6 +98,7 @@ export function Video(props: VideoProps) {
             </div>
           </a>
         </div>
+        <Footer />
       </div>
     </div>
   )
