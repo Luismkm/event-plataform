@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
-import { Footer } from "../components/Footer";
+import { Drawer } from "../components/Drawer";
 import { Header } from "../components/Header";
-import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
 
 export function Event() {
@@ -10,16 +9,15 @@ export function Event() {
   return (
     <>
       <Header />
-      <div className="flex mt-[4.7rem]">
+      <div className="flex xl:mt-[4.7rem] max-w-[1536px] mx-auto relative">
         <main className="flex flex-1">
           { slug 
             ? <Video lessonSlug={slug} /> 
             : <div className="flex-1" />
           }
         </main>
-            <span className="w-[348px]"></span>
-        <Sidebar />
+        <Drawer />
       </div>
-  </>
+    </>
   )
 }
