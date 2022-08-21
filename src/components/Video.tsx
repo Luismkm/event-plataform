@@ -35,7 +35,7 @@ export function Video(props: VideoProps) {
         </div>
       </div>
       <div className="p-8 pb-0  max-w-[1100px] mx-auto">
-        <div className="flex flex-col items-center gap-16 lg:flex-row lg:items-start">
+        <div className="flex flex-col items-start gap-16 lg:flex-row ">
           <div className="flex-1">
             <h1 className=" text-lg font-bold xl:text-2xl">
               {data.lesson.title}
@@ -57,7 +57,7 @@ export function Video(props: VideoProps) {
             </div>
             )}
           </div>
-          <div className="flex flex-col gap-4 md:flex-row lg:flex-col">
+          <div className="flex flex-col gap-4 mx-auto md:flex-row lg:flex-col">
             <a href="#" className="py-4 px-11 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
               <DiscordLogo size={24} />
               Comunidade do Discord
