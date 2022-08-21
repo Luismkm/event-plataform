@@ -1,4 +1,4 @@
-<img src="https://ik.imagekit.io/meaid6cls2/Ignite_lab/img_02_aYdso8tgx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661106535386" width="380"/>
+<img src="https://ik.imagekit.io/meaid6cls2/Ignite_lab/img_02_aYdso8tgx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661106535386"/>
 
 ## Descrição
 
