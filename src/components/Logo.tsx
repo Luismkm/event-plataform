@@ -2,6 +2,7 @@ export function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      className="scale-75 lg:scale-95"
       width="237"
       height="34"
       fill="none"

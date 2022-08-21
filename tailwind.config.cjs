@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        blur: 'url(/src/assets/blur-background.png)'
+        blur: 'url(/src/assets/blur-background.png)',
+        icon: 'url(/src/assets/react-icon.svg)'
       },
       fontFamily: {
         sans: 'Roboto, sans-serif'
@@ -39,4 +40,5 @@ module.exports = {
     },
   },
   plugins: [],
+  plugins: [require("daisyui")],
 }
