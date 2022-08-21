@@ -37,7 +37,7 @@ export function Subscribe() {
       <div className="w-full max-w-[490px] mt-16 z-0 flex flex-col items-center lg:flex-row lg:max-w-[1100px] lg:px-4 lg:mt-20 lg:mx-auto lg:justify-between xl:px-0 xl:max-w-[1214px]">
         <div className="flex flex-col items-center lg:items-start lg:max-w-[640px]">
           <Logo />
-          <h1 className="mt-8 text-3xl max-w-[300px] text-center sm:max-w-[600px] lg:text-left lg:text-[2rem] lg:max-w-[536px] xl:text-[2.5rem] xl:max-w-[640px] leading-tight">
+          <h1 className="mt-8 text-3xl max-w-[300px] sm:max-w-[600px] lg:max-w-[536px] xl:max-w-[640px] text-center lg:text-left lg:text-[2rem] xl:text-[2.5rem] leading-tight">
             Construa uma <strong className="text-blue-500">aplicação completa</strong>, do zero, <strong className="text-blue-500">com React JS</strong>
           </h1>
           <p className="my-8 text-gray-200 max-w-[300px] text-sm text-center sm:max-w-[600px] sm:text-base lg:text-left lg:text-[0.9375rem] lg:max-w-[598px] xl:text-base xl:max-w-[636px]">
