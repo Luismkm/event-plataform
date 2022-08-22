@@ -19,6 +19,7 @@
 - TypeScript
 - GraphQL
 - CDN ([ hygraph](https://app.hygraph.com/))
-<br />
-<br />
+
+---
+
 <p align="center" style="padding-top: 15px;">Feito com 💜 by <strong><a href="https://www.linkedin.com/in/luismkm/" target="_blank">Luis Moraes</a></strong> </p>
